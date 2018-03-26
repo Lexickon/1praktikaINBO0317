@@ -1,14 +1,21 @@
 #include<iostream>
-#include<string>
+#include<cmath>
 #include<clocale>
 
 using namespace std;
 int main()
 {
-setlocale(0,"Rus");
-	string name;
-	cin >> name;
-	cout <<"Дарова,"<<name<<endl;
+	double x,y;
+	setlocale(0,"Rus");
+	cout << "Введите первое число" << endl;
+	cin >> x;
+	cout << "Введите второе число" << endl;
+	cin >> y;
+	cout << "Сумма этих чисел: " << x + y << endl;
+	cout << "Разность относительно первого числа: " << x - y << endl;
+	cout << "Разность относительно второго числа: " << y - x << endl;
+	cout << "Произведение этих чисел: " << x * y << endl;
+cout << "Частное относительное первого числа: " << x / y << endl;
+cout << "Частное относительное второго числа: " << y / x << endl;
 	return 0;
 }
-
